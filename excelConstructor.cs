@@ -8,6 +8,7 @@ namespace TripsApp
 {
     class excelConstructor
     {
+        //insert credentials where insert comment is
         public const string excelConnection = @"";//insert excel file path
        
 
