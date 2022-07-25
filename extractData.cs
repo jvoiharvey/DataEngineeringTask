@@ -66,12 +66,7 @@ namespace TripsApp
 
                 for (int x = 2; x <= rows; x++)
                 {
-                    //create new line
-                    Console.Write("\r\n");
-
-
-
-
+                    
                     SqlCommand command = new SqlCommand();
                     command.Connection = ServerConnection;            // <== lacking
                     command.CommandType = CommandType.Text;
